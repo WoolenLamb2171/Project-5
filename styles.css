@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1440px;
+    height: 3359px;
+}
+
+.header{
+    display: flex;
+    position: fixed;
+    width: 1440px;
+    height: 60px;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+.evian{
+    font-size: 50px;
+    color: #E50043;
+    margin-left: 20px;
+}
+
+.links{
+    flex-wrap: wrap;
+    display: flex;
+    justify-self: space-between;
+    font-size: 50px;
+    color: #E50043;
+    margin-right: 20px;
+}
+
+a{
+    margin-left: 25px;
+}
+
+.logo{
+    display: flex;
+    z-index: 1;
+    width: 1440px;
+    height: 950px;
+    background-image: url(images/evian_origins_logo.png);
+    
+}
+
+.logoText{
+    display: flex;
+    z-index: 2;
+    color: #E50043;
+    font-size: 100px;
+    position: relative;
+    top: 485px;
+    left: 300px;
+}
+
+.frame{
+    display: flex;
+    background-image: url(images/Rectangle.png);
+    width: 1040px;
+    height: 280px;
+    background-size: auto;
+    margin-top: 290px;
+    margin-bottom: 290px;
+    margin-left: 190px;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.bottomFrame{
+    display:flex;
+    background-image: url(images/Rectangle.png);
+    width: 1040px;
+    height: 280px;
+    background-size: auto;
+    margin-top: 290px;
+    margin-bottom: 290px;
+    margin-left: 190px;
+    justify-content: space-around;
+
+}
+
+.bottomFrameText{
+    display: flex;
+    width: 749px;
+    height: 220px;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.bottleInFrame{
+    margin-top: 25px;
+    width: 101px;
+    height: 220px;
+}
+
+.textInFrame{
+    font-size: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.bottles{
+    display: flex;
+    justify-content: space-around;
+}
+
+.wangText,
+.lacroixText,
+.chiaraText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wangImage,
+.lacroixImage,
+.chiaraImage{
+    margin-bottom: 20px;
+}
+
+.footer{
+    display: flex;
+    width: 1440px;
+    height: 140px;
+    background-color: #F8BFC7;
+    align-items: center;
+}
+
+.textInFooter{
+    font-size: 50px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
