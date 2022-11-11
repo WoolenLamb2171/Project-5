@@ -5,15 +5,14 @@
 }
 
 body{
-    width: 1440px;
     height: 3359px;
 }
 
 .header{
     display: flex;
     position: fixed;
-    width: 1440px;
     height: 60px;
+    width: 1440px;
     background-color: #FFFFFF;
     justify-content: space-between;
     z-index: 3;
@@ -40,45 +39,35 @@ a{
 
 .logo{
     display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 1;
-    width: 1440px;
     height: 950px;
     background-image: url(images/evian_origins_logo.png);
     
 }
 
 .logoText{
-    display: flex;
-    z-index: 2;
     color: #E50043;
     font-size: 100px;
-    position: relative;
-    top: 485px;
-    left: 300px;
 }
 
 .frame{
-    display: flex;
-    background-image: url(images/Rectangle.png);
+    border: 2px solid pink;
+    border-radius: 15px;
     width: 1040px;
     height: 280px;
     background-size: auto;
-    margin-top: 290px;
-    margin-bottom: 290px;
-    margin-left: 190px;
-    justify-content: space-around;
-    flex-direction: column;
+    margin: 290px auto;
+    padding: 20px 0;
 }
 
 .bottomFrame{
     display:flex;
-    background-image: url(images/Rectangle.png);
     width: 1040px;
-    height: 280px;
-    background-size: auto;
-    margin-top: 290px;
-    margin-bottom: 290px;
-    margin-left: 190px;
+    border: 2px solid pink;
+    border-radius: 15px;
+    margin: 290px auto;
     justify-content: space-around;
 
 }
@@ -106,7 +95,9 @@ a{
 
 .bottles{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 1040px;
+    margin: 0 auto;
 }
 
 .wangText,
@@ -125,7 +116,6 @@ a{
 
 .footer{
     display: flex;
-    width: 1440px;
     height: 140px;
     background-color: #F8BFC7;
     align-items: center;
